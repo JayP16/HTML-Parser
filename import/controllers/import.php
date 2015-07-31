@@ -8,7 +8,7 @@ class Import extends MX_Controller
 	public function startImport( ) {
 		
 		$output = shell_exec('/var/www/vhosts/dev.applications.ene.gov.on.ca/httpdocs/python27/bin/python2.7 ./assets/python/htmlParser.py ' . $_GET['url'] . ' 2>&1');
-		echo $output . "~~~";
+
 	}
 	public function importExisting(){
 		$assetId = $_POST['assetId'];
