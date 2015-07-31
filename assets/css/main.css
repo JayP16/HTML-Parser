@@ -1,0 +1,69 @@
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+#logo {
+	padding-top: 4px; 
+	padding-right: 25px;
+}
+
+form.details input {
+	padding: 10px;
+	width: 100%;	
+	margin-bottom:10px;
+}
+
+form.details select {
+	padding: 10px;
+	width: 100%;
+	margin-bottom:10px;
+}
+
+form.details textarea {
+	padding: 10px;
+	width: 100%;
+	min-height: 150px;	
+	margin-bottom:10px;
+}
+
+form.details input.nodetails {
+	width:10px;
+}
+
+form a.details {
+	color: #428BCA;
+    text-decoration: none;
+}
+
+ul.root {
+	margin-left:-25px;	
+}
+
+ul.root li {
+	list-style:circle;	
+}
+
+hr.details {
+	border:1px solid #069;
+}
+
+.ui-autocomplete-input {
+  z-index: 1511;
+}
+
+.ui-autocomplete {
+  z-index: 1510 !important;
+  font-size:1.0em;
+  padding:8px;
+}
+
+.bundle {
+	background-color:#F9F9F9;	
+}
+
+.ui-widget-content a {
+	color: #428BCA;
+}
+
+h3 {margin-bottom:25px; }

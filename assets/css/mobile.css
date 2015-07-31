@@ -1,0 +1,30 @@
+.library .ui-assets,
+.library .ui-libraries 
+{
+    width: 100%;
+    float: none;
+}
+
+@media all and (min-width: 55em) 
+{
+    .library .ui-assets 
+	{
+      float: left;
+      width: 70%;
+    }
+    .library .ui-libraries 
+	{
+      float: right;
+      width: 29%;
+    }
+}
+
+.ui-listview li a {
+	font-size:0.8em;	
+	font-weight:normal;
+}
+
+.ui-listview li a .ui-li-count{
+	font-size:0.8em;	
+	font-weight:normal;
+}
